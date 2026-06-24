@@ -11,7 +11,7 @@ This is a React.js User Management Dashboard project. The application fetches us
 * Search users by name or email
 * Sort users alphabetically (A-Z / Z-A)
 * User details modal popup
-* Dark mode toggle
+* Dark mode 
 * Hover effects on user cards
 *  Responsive design
 * Search icon inside search bar
@@ -27,16 +27,24 @@ Technologies Used
 * Fetch API
 * React Icons
 
- React Concepts Used
+ -Setup Steps
+1. Clone the Repository
+git clone https://github.com/madhuri832/user-dashboard.git
+2. Navigate to Project Folder
+cd user-dashboard
+3. Install Dependencies
+npm install
+4. Install Additional Packages
+npm install react-icons, react-toastify
+5. Start Development Server
+npm start
+6. Open Browser
 
-* useState
-* useEffect
-* Props
-* Event Handling
-* API Integration
-* Component-Based Architecture
+Visit:
+http://localhost:3000
+The application will run locally and display the User Management Dashboard.
 
- Project Structure
+ *Project Structure
 
 -src
 
@@ -72,8 +80,7 @@ Challenges Faced
 
 
 Through this project, I learned:
-
-* Working with APIs using async/await
+*implementing dark mode
 * Managing state using React Hooks
 * Building reusable components
 * Creating responsive user interfaces using Tailwind CSS
