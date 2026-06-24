@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+ User Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Overview
 
-## Available Scripts
+This is a React.js User Management Dashboard project. The application fetches user data from an API and displays it in a responsive dashboard with search, sorting, dark mode, toast notifications, and user detail modal functionality.
 
-In the project directory, you can run:
+ Features
 
-### `npm start`
+* Fetch user data from API
+* Display users in responsive cards
+* Search users by name or email
+* Sort users alphabetically (A-Z / Z-A)
+* User details modal popup
+* Dark mode toggle
+* Hover effects on user cards
+*  Responsive design
+* Search icon inside search bar
+* User avatar with initials
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies Used
 
-### `npm test`
+* React.js
+* JavaScript 
+* Tailwind CSS
+* React Hooks (useState, useEffect)
+* Fetch API
+* React Icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ React Concepts Used
 
-### `npm run build`
+* useState
+* useEffect
+* Props
+* Event Handling
+* API Integration
+* Component-Based Architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-src
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-components
 
-### `npm run eject`
+* SearchBar.jsx
+* UserCard.jsx
+* UserModal.jsx
+* Loader.jsx
+* EmptyState.jsx
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Users.jsx
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-App.js
+-index.js
+-index.css
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ API Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://jsonplaceholder.typicode.com/users
 
-### Code Splitting
+Challenges Faced
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Setting up Tailwind CSS in React
+* Managing state between components
+* Implementing dark mode
+* Handling API loading and error states
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Through this project, I learned:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Working with APIs using async/await
+* Managing state using React Hooks
+* Building reusable components
+* Creating responsive user interfaces using Tailwind CSS
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+-Madhuri Bharti
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
